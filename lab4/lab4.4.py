@@ -1,0 +1,10 @@
+zwet1=str(input("введите первый цвет "))
+zwet2=str(input("введите второй цвет "))
+if (zwet1!="желтый" or zwet1!="жёлтый" or zwet1!= "синий" or zwet1!="красный")and(zwet2!="желтый" or zwet2!="жёлтый" or zwet2!= "синий" or zwet2!="красный"):
+    if ((zwet1=="желтый" or zwet1=="жёлтый")and(zwet2=="желтый" or zwet2=="жёлтый")): print("желтый")
+    if ((zwet1 == "желтый" or zwet1 == "жёлтый") and (zwet2 == "синий"))or((zwet1 == "синий") and (zwet2 == "желтый" or zwet2 == "жёлтый")):print("зеленый")
+    if ((zwet1 == "желтый" or zwet1 == "жёлтый") and (zwet2 == "красный")) or ((zwet1 == "красный") and (zwet2 == "желтый" or zwet2 == "жёлтый")):print("оранжевый")
+    if ((zwet1=="синий")and(zwet2=="синий")): print("синий")
+    if ((zwet1 == "синий") and (zwet2 == "красный"))or((zwet1 == "красный") and (zwet2 == "синий")):print("фиолетовый")
+    if ((zwet1 == "красный") and (zwet2 == "красный")): print("красный")
+else: print("ошибка")
