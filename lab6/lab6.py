@@ -39,12 +39,11 @@ def zd4():
             print(False)
     else:
         print("оличество цифр должно быть четным")
+pr=int(input())
+if pr==1:
+    zd1()
+if pr==2:
+    zd2()
+if pr==3:zd3()
+if pr==4:zd4()
 
-print("задание 1")
-zd1()
-print("задание 2")
-zd2()
-print("задание 3")
-zd3()
-print("задание 4")
-zd4()
