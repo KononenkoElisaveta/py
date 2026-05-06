@@ -1,7 +1,6 @@
 from PIL import Image
 from numpy.ma.core import resize
 
-
 def wm(img, wm_path, out, pos='br', op=128, s=0.15):
     i=Image.open(img).convert('RGBA')
     w=Image.open(wm_path).convert('RGBA')
